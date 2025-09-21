@@ -1,110 +1,132 @@
-# 🔥 AI Resume Analyzer - BRUTAL HONESTY EDITION
+# AI Resume Analyzer - Brutal Honesty Edition
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![React](https://img.shields.io/badge/React-19.1.1-blue.svg)](https://reactjs.org/)
-[![Vite](https://img.shields.io/badge/Vite-7.1.2-646CFF.svg)](https://vitejs.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.16-38B2AC.svg)](https://tailwindcss.com/)
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Built with React](https://img.shields.io/badge/Built_with-React-blue)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Powered_by-Vite-yellow)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Styled_with-Tailwind_CSS-38bdf8)](https://tailwindcss.com/)
 
-A modern, AI-powered resume analysis tool that provides **UNFILTERED, BRUTALLY HONEST** ATS scoring, career insights, and interview preparation. No sugar-coating, no false hope - just the raw truth you need to succeed.
+A modern, AI-powered resume analysis tool providing **unfiltered, brutally honest** ATS scoring, career insights, and interview preparation feedback for job seekers. No sugar-coating—just the real, actionable truth you need to improve.
 
-![AI Resume Analyzer](https://via.placeholder.com/800x400/6366f1/ffffff?text=AI+Resume+Analyzer+Preview)
+---
 
-## ✨ Features
+## 🚀 Features
 
-- 🔥 **BRUTAL HONESTY**: No sugar-coating, direct feedback on weaknesses
-- 📊 **ATS SCORING**: Real compatibility scores (not participation trophies)
-- 🎯 **EXPERIENCE-LEVEL FEEDBACK**: Tailored for freshers vs experienced professionals
-- 📁 **MULTIPLE FILE SUPPORT**: PDF, DOCX, DOC, TXT, PNG, JPG with OCR
-- 🤖 **AI-POWERED ANALYSIS**: Google Gemini AI integration
-- 💼 **INTERNSHIP SUGGESTIONS**: Realistic opportunities based on your level
-- 🎤 **BRUTAL INTERVIEW PREP**: Questions that expose weaknesses
-- 📱 **RESPONSIVE DESIGN**: Works perfectly on all devices
+- 🔥 **Brutal Honesty**: Candid feedback on all weaknesses—no sugar-coating!
+- 📊 **Real ATS Scoring**: Precise compatibility scores, not generic participation trophies.
+- 🎯 **Experience-aware Feedback**: Tailored insights for both freshers and experienced professionals.
+- 📁 **Multi-File Upload**: Analyze resumes, cover letters, and portfolios (PDF, DOCX, DOC, TXT, PNG, JPG with OCR).
+- 🤖 **AI-powered Analysis**: Built with Google Gemini AI.
+- 💼 **Internship Suggestions**: Realistic opportunities tailored for your profile.
+- 🎤 **Harsh Interview Prep**: Practise with questions that really test your weaknesses.
+- 📱 **Responsive Design**: Workflow optimized for all devices.
 
-## 🚀 Quick Start
+---
+
+## 💡 What Makes It Different
+
+- **No Mercy**: Get direct feedback on why your resume may be rejected.
+- **Harsh Reality Checks**: Unfiltered, practical assessments for genuine growth.
+- **Custom Analysis**: Specially optimized advice for both entry-level and advanced users.
+- **Fresher-Friendly**: Champions potential, growth, and learning.
+- **Higher Standards for Pros**: Rigorous assessment for experienced professionals.
+
+---
+
+## 🛠️ Quick Start
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
-- npm or yarn package manager
+- npm or yarn
 
-### Quick Start
+### Installation
 
-1. **Clone/Download the project**
-   ```bash
-   # If you have the project files, navigate to the directory
-   cd ai-resume-analyzer
-   ```
+1. **Clone the repository:**
+git clone https://github.com/Pavankalyan32/ai-resume-analyzer.git
+cd ai-resume-analyzer
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+text
 
-3. **Set up environment variables**
-   - Create a `.env` file in the root directory
-   - Add your Gemini API key:
-   ```
-   VITE_GEMINI_API_KEY=your_api_key_here
-   ```
+2. **Install dependencies:**
+npm install
 
-4. **Start the development server**
-   ```bash
-   npm run dev
-   ```
+text
 
-5. **Open your browser**
-   - Navigate to `http://localhost:5173`
-   - The application will automatically reload when you make changes
+3. **Set up environment variables:**
+- Create a `.env` file in the root directory.
+- Add your Gemini API Key:
+  ```
+  VITE_GEMINI_API_KEY=your_api_key_here
+  ```
 
-### API Key Setup
-- Get your free Gemini API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
-- Replace `your_api_key_here` in the `.env` file with your actual API key
+4. **Start the development server:**
+npm run dev
 
-### Usage
-1. Upload your documents (PDF, DOCX, DOC, TXT, PNG, JPG formats supported)
-   - Resume, cover letter, portfolio - upload multiple files
-   - OCR automatically handles scanned PDFs and images
-2. Paste the job description you're applying for
-3. **Select your experience level** (Fresher/Entry Level or Experienced Professional)
-4. Click "Start AI Analysis" to get **BRUTALLY HONEST** feedback tailored to your level
-5. Generate **RUTHLESS** interview questions that will expose your weaknesses
+text
+Visit `http://localhost:5173` in your browser.
 
-### What Makes This Different
-- **NO MERCY**: Get the harsh truth about your resume's weaknesses
-- **NO SUGAR-COATING**: Direct feedback on what will get you rejected
-- **REALISTIC SCORING**: Honest ATS compatibility scores (not participation trophies)
-- **BRUTAL INTERVIEW PREP**: Questions that separate strong candidates from weak ones
-- **HARSH REALITY CHECKS**: Unfiltered assessment of your actual qualifications
-- **EXPERIENCE-LEVEL FEEDBACK**: Tailored analysis for freshers vs experienced professionals
-- **FRESHER-FRIENDLY**: Special focus on potential, learning ability, and entry-level opportunities
-- **EXPERIENCED STANDARDS**: Higher expectations for advanced skills and leadership
+---
 
-### Supported File Types
-- **PDF**: Regular PDFs and scanned documents (OCR)
-- **Word Documents**: DOCX and DOC files
-- **Text Files**: Plain text documents
-- **Images**: PNG and JPG files (OCR processing)
-- **Multiple Files**: Upload up to 5 files at once
+## 🔑 API Key Setup
 
-That's it! Your AI Resume Analyzer is now running locally.
+- Get your free Gemini API Key from [Google AI Studio](https://makersuite.google.com/app/apikey).
+- Paste it in your `.env` file as shown above.
+
+---
+
+## 🎮 Usage
+
+1. Upload your documents (PDF, DOCX, DOC, TXT, PNG, JPG).
+2. Paste the job description you want to target.
+3. Select your experience level (Fresher or Experienced).
+4. Click **Start AI Analysis**.
+5. Review your brutally honest feedback and generated interview questions!
+
+---
+
+## 📂 Supported File Types
+
+- **PDF**: Includes scanned images (with OCR)
+- **Word Docs**: DOCX, DOC
+- **Text Files**: TXT
+- **Images**: PNG, JPG (with OCR)
+- **Multiple uploads**: Up to 5 at once
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Google Gemini AI for powerful language processing
-- React and Vite for the amazing development experience
-- Tailwind CSS for beautiful styling
-- PDF.js for PDF processing
-- Tesseract.js for OCR capabilities
+Contributions and suggestions are welcome!
+- Fork the repo
+- Create a new branch (`git checkout -b feature/your-feature`)
+- Commit your changes (`git commit -am 'Add some feature'`)
+- Push to the branch (`git push origin feature/your-feature`)
+- Open a Pull Request
 
 ---
 
-*Built with ❤️ using React, Vite, Tailwind CSS, and Google Gemini AI - Now with BRUTAL HONESTY*
+## 📄 License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- Google Gemini AI
+- React & Vite
+- Tailwind CSS
+- PDF.js
+- Tesseract.js
+
+---
+
+> Built with ❤️ by [Pavankalyan32](https://github.com/Pavankalyan32) — for real-world, no-nonsense resume improvement.
+
+Pro tips:
+
+Add shield badges for NPM, deployment, or any build status later.
+
+Replace the "API KEY" and URLs as needed.
+
+Add screenshots/gifs of your UI under a "Preview" section for more impact.
